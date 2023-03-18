@@ -59,7 +59,10 @@ public class BOB_Blackboard : DynamicBlackboard {
         FindChildWithTag(gameObject, "NECKLACE").SetActive(true);
     }
 
-    public void CountFlower() { flowers++; }
+    public void CountFlower() 
+    {
+        flowers++;
+    }
 
     public void GetPaid () {
         money += salary;
