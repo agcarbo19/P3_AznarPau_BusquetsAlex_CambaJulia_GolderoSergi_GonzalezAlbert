@@ -1,6 +1,6 @@
 using UnityEngine;
 using BTs;
-
+/*
 public class ACTION_CountFlower : Action
 {
     
@@ -13,31 +13,33 @@ public class ACTION_CountFlower : Action
        e.g.
        public string keyDistance;
        public string keyoutObject 
-     */
+     
     
     // construtor
     public ACTION_CountFlower()  { 
-        /* Receive action parameters and set them */
+        /* Receive action parameters and set them  
     }
     
-    /* Declare private attributes here */
+    /* Declare private attributes here  
 
     public override void OnInitialize()
     {
-        /* write here the initialization code. Remember that initialization is executed once per ticking cycle */
-           
+        /* write here the initialization code. Remember that initialization is executed once per ticking cycle  
     }
 
-    public override Status OnTick ()
+    /*public override Status OnTick ()
     {
         /* write here the code to be executed every time the action is ticked
            use blackboard.get<type>(keyParam) to retrieve information from the blackboard
            (where keyParam is one of the action parameters or a known key in the blackboard) 
            use blackboard.put(keyoutParam) to store information in the blackboard
            (where keyoutParam is one of the action parameters or a key in the blackboard)
-        */
         
-    }
+        
+        
+
+     
+    } 
 
     public override void OnAbort()
     {
@@ -45,3 +47,4 @@ public class ACTION_CountFlower : Action
     }
 
 }
+*/
